@@ -154,7 +154,7 @@ section h2 {
 header.masthead {
   position: relative;
   width: 100%;
-  padding-top: 150px;
+  padding-top: 100px;
   padding-bottom: 100px;
   color: white;
 
@@ -166,9 +166,6 @@ header.masthead .header-content {
   text-align: center;
 }
 
-header.masthead .header-content h1 {
-  font-size: 30px;
-}
 
 header.masthead .device-container {
   max-width: 325px;
@@ -296,7 +293,7 @@ section.features .feature-item i {
 
 section.cta {
   position: relative;
-  padding: 250px 0;
+  padding:0 auto 0;
   background-image: url("../img/bg-cta.jpg");
   background-position: center;
   background-size: cover;
@@ -316,12 +313,6 @@ section.cta .cta-content h2 {
 
 section.cta .cta-content p {
   color: white;
-}
-
-@media (min-width: 768px) {
-  section.cta .cta-content h2 {
-    font-size: 80px;
-  }
 }
 
 section.cta .overlay {
@@ -596,7 +587,6 @@ canvas {
 
 .shoprize-masthead-content {
   padding: 2em;
-  background: rgba(0,0,0,0.76);
   border-radius:2em;
 }
 
@@ -773,22 +763,95 @@ section.cta2 .overlay {
   margin: 0.5em auto;
 }
 
+
+.device-mockup.iphone6_plus.portrait.white > .device, .device-mockup.iphone6_plus.white > .device {
+  background: none !important;
+}
+
+.shoprize-guy {
+text-align: center;
+height: 90%;
+display: flex;
+bottom: 0;
+right: 0;
+min-height: 320px;
+}
+
+.shoprize-guy img {
+  margin: 0 auto;
+}
+
+.buy-more {
+  margin: 120px auto;
+}
+
 /* Custom Media Queries */
 
 @media (min-width: 992px) {
+  .masthead {
+    padding-top: 150px;
+  }
+
+  .shoprize-masthead-content {
+    background: rgba(0,0,0,0.76);
+  }
+
   img.scan-receipt-img {
     position: absolute;bottom: 0;left: 0;right: 0;
   }
+  .shoprize-guy {
+    position: absolute;
+  }
+
+  .shoprize-guy img {
+    margin: 0 auto 0 4rem;
+  }
+
+  .buy-more {
+    text-align: left !important;
+  }
+
+  section.cta .cta-content h2 {
+    font-size: 80px;
+  }
+}
+
+
+@media (max-width: 991.98px) {
+  .cta-content img {
+    max-width: 280px;
+  }
+}
+
+@media (max-width: 767.98px) {
+
+  .buy-more {
+    padding: 0;
+    text-align:center;
+    margin: 120px 30px;
+  }
+
+  section.cta {
+    padding-bottom: 0 !important;
+  }
+
 }
 
 @media (min-width: 768px) {
   .badges iframe {
     width: 550px !important;
   }
+
 }
+
 
 @media (max-width: 575.98px) { 
   img.scan-receipt-img {
     width: 100%;
   }
+
+  .shoprize-guy img {
+    max-width:320px;
+  }
+
 }
