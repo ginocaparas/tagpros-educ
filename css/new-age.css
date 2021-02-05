@@ -201,7 +201,7 @@ header.masthead .device-container .screen img {
 
 section.download {
   position: relative;
-  padding: 150px 0;
+  padding: 120px 0;
 }
 
 section.download h2 {
@@ -233,6 +233,11 @@ section.download .badges .badge-link img {
   section.download h2 {
     font-size: 70px;
   }
+}
+
+section.features {
+    background-color: white !important;
+    overflow-x: hidden;
 }
 
 section.features .section-heading {
@@ -558,6 +563,11 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 
 /* G01 */
 
+body {
+  background: url('../img/seamless-starfield-texture.jpg') repeat fixed;
+  height: auto !important;
+}
+
 canvas {
   background: #111;
   width: 100%;
@@ -565,20 +575,23 @@ canvas {
 }
 
 .masthead {
-  height: 100vh;
-  background: url('../img/seamless-starfield-texture.jpg') repeat fixed;
+  height: auto;
+  background: url('../img/masthead-bg.png') repeat-x;
+  background-position: bottom;
+  padding-bottom: 0 !important;
+}
+
+.masthead .header-content {
+  margin-bottom: 0 !important;
 }
 
 .shoprize-masthead {
-  position: absolute;
-  left: 50%;
-  width: 50%;
+
 }
 
 .shoprize-masthead-row {
   margin: 0 auto !important;
-  position: relative;
-  left: -50%;
+
 }
 
 .shoprize-masthead-content {
@@ -755,8 +768,27 @@ section.cta2 .overlay {
   margin-top: 1em;
 }
 
+
+.btn {
+  margin: 0.5em auto;
+}
+
+/* Custom Media Queries */
+
+@media (min-width: 992px) {
+  img.scan-receipt-img {
+    position: absolute;bottom: 0;left: 0;right: 0;
+  }
+}
+
 @media (min-width: 768px) {
- section.features .container {
-  background: url('../img/scan-receipt.png') no-repeat bottom left !important;
- } 
+  .badges iframe {
+    width: 550px !important;
+  }
+}
+
+@media (max-width: 575.98px) { 
+  img.scan-receipt-img {
+    width: 100%;
+  }
 }
