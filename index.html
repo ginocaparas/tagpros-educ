@@ -64,13 +64,21 @@
           });
         };
 
+
+          FB.Event.subscribe('send_to_messenger', function(e) {
+      // callback for events triggered by the plugin
+            console.log(e);
+      });
+
         (function(d, s, id) {
         var js, fjs = d.getElementsByTagName(s)[0];
         if (d.getElementById(id)) return;
         js = d.createElement(s); js.id = id;
         js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
         fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));</script>
+      }(document, 'script', 'facebook-jssdk'));
+
+    </script>
 
       <!-- Your Chat Plugin code -->
       <div class="fb-customerchat"
@@ -105,6 +113,7 @@
     </div>
   </nav>
 
+
   <header class="masthead">
     <div class="container h-100 shoprize-masthead">
       <div class="row h-100 shoprize-masthead-row">
@@ -116,8 +125,8 @@
             <h5 style="margin-bottom:3em;">
               Boost sales through fun games with <b>Shoprize Smart Receipts</b>.
             </h5>
-            <a href="#contact" class="btn btn-outline btn-xl js-scroll-trigger">SIGN UP NOW!</a>
-            <a href="#about" class="btn btn-outline btn-xl js-scroll-trigger">Learn More</a>
+            <a href="#contact" class="btn btn-outline btn-xl js-scroll-trigger">PARTNERS:<br>SIGN UP NOW!</a>
+            <a data-toggle="modal" data-target="#modalredeem" class="btn btn-outline btn-xl js-scroll-trigger">REDEEM YOUR CODE<br>HERE!</a>
           </div>
         </div>
         <div class="col-lg-6 my-auto shoprize-guy">
@@ -127,6 +136,45 @@
       </div>
     </div>
   </header>
+
+
+  <!-- Modal -->
+<div class="modal fade" id="modalredeem" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">HOW TO REDEEM YOUR SHOPRIZE CODE</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <h4>There are many ways to redeem your <b>SHOPRIZE</b> code!</h4>
+        <br>
+        <h5>
+          <ol>
+            <li>Go to <a href="https://m.me/ShoprizePH" target="_blank">https://m.me/ShoprizePH</a> and enter your SHOPRIZE code;
+            <br><br><p><b>-- OR --</b></p></li>
+            <li>Click on the <img src="https://img.icons8.com/ios/40/000000/facebook-messenger--v1.png"/> Messenger icon on the lower left side of your screen to start the SHOPRIZE Chatbot!</li>
+          </ol>
+        </h5>
+        <!-- Send to Messenger -->
+        <div class="fb-send-to-messenger" 
+          messenger_app_id="103248481623248" 
+          page_id="103248481623248" 
+          data-ref="<PASS_THROUGH_PARAM>" 
+          color="white" 
+          size="large">
+        </div>
+        <!-- End -->
+        <div class="modal-footer"><button type="button" class="btn btn-primary-shoprize scrollto js-scroll-trigger" data-dismiss="modal">Got it!</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 
   <section class="download bg-primary text-center" id="about">
     <div class="container">
@@ -394,8 +442,8 @@
                     <div>
                       <i class="fa fa-envelope"></i>
                       <p>
-                        <a href="mailto:info@shoprize.ph" style="color:black;">
-                          info@shoprize.ph
+                        <a href="mailto:engage@shoprize.ph" style="color:black;">
+                          engage@shoprize.ph
                         </a>
                       </p>
                     </div>
