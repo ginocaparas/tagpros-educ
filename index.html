@@ -64,12 +64,6 @@
           });
         };
 
-
-          FB.Event.subscribe('send_to_messenger', function(e) {
-      // callback for events triggered by the plugin
-            console.log(e);
-      });
-
         (function(d, s, id) {
         var js, fjs = d.getElementsByTagName(s)[0];
         if (d.getElementById(id)) return;
@@ -158,15 +152,7 @@
             <li>Click on the <img src="https://img.icons8.com/ios/40/000000/facebook-messenger--v1.png"/> Messenger icon on the lower left side of your screen to start the SHOPRIZE Chatbot!</li>
           </ol>
         </h5>
-        <!-- Send to Messenger -->
-        <div class="fb-send-to-messenger" 
-          messenger_app_id="103248481623248" 
-          page_id="103248481623248" 
-          data-ref="<PASS_THROUGH_PARAM>" 
-          color="white" 
-          size="large">
-        </div>
-        <!-- End -->
+
         <div class="modal-footer"><button type="button" class="btn btn-primary-shoprize scrollto js-scroll-trigger" data-dismiss="modal">Got it!</button>
         </div>
       </div>
