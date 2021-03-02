@@ -867,3 +867,9 @@ min-height: 320px;
   }
 
 }
+
+
+.modal-content-G01 {
+  border: 0.5em solid #fc8403 !important;
+  border-radius: 1em !important;
+}
