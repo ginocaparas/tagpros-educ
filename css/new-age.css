@@ -606,6 +606,7 @@ canvas {
 .btn-primary-shoprize-header {
     color: #fff;
     background-color: #fc8403;
+    border-color: #ac5a02;
 }
 
 .btn-primary-shoprize-header:hover {
