@@ -38,7 +38,7 @@ $rules = array(
     "email" => true
   ),
   "Phone" => array(
-    "required" => true,
+    "required" => false,
     "label" => "Your phone number",
     "maxLength" => 30
   ),
