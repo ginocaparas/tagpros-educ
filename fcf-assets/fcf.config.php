@@ -80,8 +80,8 @@ define('EMAIL_OUT_FROM_NAME', '');
 // *************
 // EMAIL MESSAGE
 // *************
-define('EMAIL_TO', 'gino@streamenginestudios.com');
-define('EMAIL_TO_NAME', '');
+define('EMAIL_TO', 'engage@shoprize.ph');
+define('EMAIL_TO_NAME', 'Shoprize Team');
 
 define('EMAIL_TO_CC', '');
 define('EMAIL_TO_CC_NAME', '');
@@ -89,14 +89,14 @@ define('EMAIL_TO_CC_NAME', '');
 define('EMAIL_TO_BCC', '');
 define('EMAIL_TO_BCC_NAME', '');
 
-define('EMAIL_FROM', 'gino@streamenginestudios.com');
+define('EMAIL_FROM', 'engage@shoprize.ph');
 define('EMAIL_FROM_NAME', 'Shoprize Contact Form');
 
 define('EMAIL_REPLY_TO', 'FIELD:Email');
 define('EMAIL_REPLY_TO_NAME', 'FIELD:Email');
 
 define('EMAIL_SUBJECT_BEFORE', '');
-define('EMAIL_SUBJECT', "Contact Form Message");
+define('EMAIL_SUBJECT', "New Message from Shoprize.ph Contact Form");
 define('EMAIL_SUBJECT_AFTER', '');
 
 

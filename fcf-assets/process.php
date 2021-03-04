@@ -295,7 +295,7 @@ try {
         $message = $mail->ErrorInfo;
         exitFail($message);
     } else {
-        exitFail("There is a problem sending the email. Please try later.");
+        exitFail("Sorry, we are currently experiencing technical problems. Please try again later.");
     }
 }
 
