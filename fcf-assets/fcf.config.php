@@ -38,7 +38,7 @@ $rules = array(
     "email" => true
   ),
   "Phone" => array(
-    "required" => false,
+    "required" => true,
     "label" => "Your phone number",
     "maxLength" => 30
   ),
@@ -80,7 +80,7 @@ define('EMAIL_OUT_FROM_NAME', '');
 // *************
 // EMAIL MESSAGE
 // *************
-define('EMAIL_TO', '');
+define('EMAIL_TO', 'gino@streamenginestudios.com');
 define('EMAIL_TO_NAME', '');
 
 define('EMAIL_TO_CC', '');
@@ -89,8 +89,8 @@ define('EMAIL_TO_CC_NAME', '');
 define('EMAIL_TO_BCC', '');
 define('EMAIL_TO_BCC_NAME', '');
 
-define('EMAIL_FROM', '');
-define('EMAIL_FROM_NAME', '');
+define('EMAIL_FROM', 'gino@streamenginestudios.com');
+define('EMAIL_FROM_NAME', 'Shoprize Contact Form');
 
 define('EMAIL_REPLY_TO', 'FIELD:Email');
 define('EMAIL_REPLY_TO_NAME', 'FIELD:Email');
