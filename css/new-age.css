@@ -860,7 +860,7 @@ min-height: 320px;
     margin-top: 8em !important;
     margin-bottom: auto !important;
   }
-  
+  #tagpros-exp {width: 868px !important;height:465px !important;}
 }
 
 
@@ -1000,4 +1000,4 @@ z-index: -5;
 .tagblog-sem-desc {background:#FFF;height:auto;padding:0.5em;}
 
 .tagpros-donate {background:url('../img/worn_dots.png');background-color:rgba(246,218,39,0.9)}
-.init-hov {background:rgba(0,0,0,0.4);border-radius: 4px;}
+.init-hov {background:rgba(0,0,0,0.6);border-radius: 4px;}
