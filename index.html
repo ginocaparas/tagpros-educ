@@ -42,7 +42,7 @@
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
   <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
 
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet"> 
 
   <!-- Plugin CSS -->
   <link rel="stylesheet" href="device-mockups/device-mockups.min.css">
@@ -85,7 +85,7 @@
             <a class="nav-link js-scroll-trigger" href="team.html">Our Team</a>
           </li>
           <li class="nav-item nav-item-mobile-01">
-            <a class="nav-link js-scroll-trigger" href="#contact">Donate Now</a>
+            <a class="nav-link js-scroll-trigger" href="#donate">Donate Now</a>
           </li>
           
         </ul>
@@ -115,14 +115,15 @@ text-shadow: 6px 6px 0px #666;text-transform: uppercase;line-height: 1em;">
               Mission Driven, Children Focused.
             </h1>
             <div class="sub-header-tagpros">
-              <p>
-                <b>Let's create better Online Distance Learning experiences together.</b> Learn more about the Tagpros Webinar Series and help us by donating to the cause. 
+              <p style="margin:0;">
+                <b>Let's create better Online Distance Learning experiences together.</b> Learn more about the <a href="#webinar" class="js-scroll-trigger" style="color:#111;font-weight: 600;text-decoration: underline;">Tagpros Webinar Series</a> and help us by donating to the cause. 
               </p>
+              <p style="margin:1em 0;color:white;font-size: 1.2em;"><i class="fas fa-play-circle"></i> <a data-toggle="modal" data-target="#modalredeem" style="text-decoration: underline;cursor: pointer;">Watch Video on Tagpros</a></p>
             </div>
-            <a data-toggle="modal" data-target="#modalredeem" class="btn btn-outline btn-primary-tagpros-header btn-xl js-scroll-trigger" style="font-size: 1.1em;background:linear-gradient(137deg, rgba(245,126,32,1) 25%, rgba(246,218,39,1) 75%);color:black !important;border:0;box-shadow:3px 3px 0px #666;margin-right:1em;">
+            <a class="btn btn-outline btn-primary-tagpros-header btn-xl js-scroll-trigger" style="font-size: 1.1em;background:linear-gradient(137deg, rgba(245,126,32,1) 25%, rgba(246,218,39,1) 75%);color:black !important;border:0;box-shadow:3px 3px 0px #666;margin-right:1em;">
               Learn More
             </a>
-            <a data-toggle="modal" data-target="#modalredeem" class="btn btn-outline btn-primary-tagpros-header-header btn-xl js-scroll-trigger" style="font-size: 1.1em; background: #333;border:0;box-shadow:3px 3px 0px #666;color: white;">
+            <a href="#donate" class="btn btn-outline btn-primary-tagpros-header btn-xl js-scroll-trigger" style="font-size: 1.1em; background: #333;border:0;box-shadow:3px 3px 0px #666;color: white;">
               Donate Now
             </a>
           </div>
@@ -141,6 +142,33 @@ text-shadow: 6px 6px 0px #666;text-transform: uppercase;line-height: 1em;">
     </div>
   </header>
 
+
+
+<!-- Modal 1 - Redeem Code -->
+<div class="modal fade" id="modalredeem" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document" style="max-width: 100%;
+position: relative;
+left: 25%;">
+    <div class="modal-content" style="width: max-content;">
+      <div class="modal-header">
+        <h2 class="modal-title" id="exampleModalLabel">LEARN MORE ABOUT TAGPROS</h2>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <iframe id="tagpros-exp" width="868" height="485" src="https://www.youtube.com/embed/619RMlsKRwI?list=TLGGJQxPsIyeYlUxODA3MjAyMQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+        <div class="modal-footer"><button type="button" class="btn btn-primary-shoprize scrollto js-scroll-trigger" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Modal 1 -->
+
+
 <!-- ========================================= ABOUT ========================================= -->
 <!-- ========================================= ABOUT ========================================= -->
 <!-- ========================================= ABOUT ========================================= -->
@@ -148,7 +176,7 @@ text-shadow: 6px 6px 0px #666;text-transform: uppercase;line-height: 1em;">
   <section class="text-center" id="about" style="background: white;padding-bottom:0;">
     
 
-    <div class="container-fluid we-care-about">
+    <div class="container-fluid we-care-about mb-5">
       <div class="row">
         <div class="col-md-12 text-left we-care-copy">
           <h2 class="we-care-top">
@@ -161,12 +189,12 @@ text-shadow: 6px 6px 0px #666;text-transform: uppercase;line-height: 1em;">
           <div style="height:8px; width: 180px;background:rgba(245,126,32,1);margin-bottom: 60px;"></div>
 
           <div class="we-care-section">
-            <h3 class="section-heading">We are a nonprofit and a community built on diversity, equity, and inclusion, where educators, parents, and schools come together on a mission to discuss children's learning in the new normal.</h3>
+            <h3 class="section-heading">We are a <b style="color:#1a93b5">nonprofit</b> and a <b style="color:#83c447">community</b> built on <b style="color:purple">diversity</b>, <b style="color:#f57e20;">equity</b>, and <b style="color:crimson">inclusion</b>, where educators, parents, and schools come together on a mission to discuss children's learning in the new normal.</h3>
           </div>
         </div>
 
 <div class="col-md-12 text-right we-care-pic">
-  <img src="https://images.unsplash.com/photo-1497486751825-1233686d5d80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=701&q=80" style="width:50%;border-radius: 6px;">
+  <img src="./img/children5.png" style="width:50%;border-radius: 6px;">
 </div>
 
 
@@ -174,15 +202,15 @@ text-shadow: 6px 6px 0px #666;text-transform: uppercase;line-height: 1em;">
     </div>
 
 
-<sectioN>
+<section class="mt-5 pb-1">
     <div class="container-fluid">
-      <div class="row">
+      <div class="row mt-5 mb-3">
         <div class="col-md-12 mx-auto">
           
         
           <div class="badges">
               
-          <div class="row" style="margin-bottom: 3em;">
+          <div class="row" styleq="margin-bottom: 1em;">
             <div class="col-md-4"></div>
             <div class="col-md-4 text-center">
               <h1>We work closely with:</h1>  
@@ -242,13 +270,23 @@ text-shadow: 6px 6px 0px #666;text-transform: uppercase;line-height: 1em;">
 
         </div>
         <div class="row" style="margin-bottom: 3em;text-align: center;">
-          <div class="col-lg-8 justify-content-center" style="margin:2em auto 0;background: #F9F9F9;padding:4em;border-radius: 12px;">
-            <h1>Join the cause</h1>
-            <p>We’re working to meet their needs in all sorts of ways: educating their teachers, providing enrichment to their parents, collaborating with their schools, and creating experiences that bring families of all shapes, sizes, and colors together.</p>
-            <div class="btn btn-outline btn-xl btn-primary-tagpros-header">
-            <button class="btn btn-full button is-link is-medium is-fullwidth">
-              Learn More About<br>The Tagpros Initiative
-            </button>
+          <div class="col-lg-6 text-left" style="margin:2em auto 0;background: url('./img/join02.png');background-size: cover;background-position:center;padding:16em 2em 4em;color:white;text-shadow: 1px 1px 3px #333;">
+            <div class="init-hov p-3">
+              <h1>The Tagpros Initiative</h1>
+              <p>We believe that it takes a village to raise a child. We’re working to meet our stakeholders' needs in all sorts of ways: educating their teachers, providing enrichment to their parents, collaborating with their schools, and creating experiences that bring families of all shapes, sizes, and colors together.</p>
+              <div class="btn btn-outline btn-xl btn-primary-tagpros-header">
+                Learn More
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 text-left" style="margin:2em auto 0;background: url('./img/join01.png');background-size: cover;background-position:center;padding:16em 2em 4em;color:white;text-shadow: 1px 1px 3px #333;">
+            <div class="init-hov p-3">
+              <h1>Meet The Team</h1>
+              <p>The Tagpros Team is comprised of highly experienced educators and executives from various backgrounds. View the online webinar-workshop series from our Tagpros Pioneers designed to assist teachers with strategies when it comes to engaging their students online.</p>
+              <div class="btn btn-outline btn-xl btn-primary-tagpros-header">
+                The Team
+              </div>
             </div>
           </div>
         </div>
@@ -258,7 +296,274 @@ text-shadow: 6px 6px 0px #666;text-transform: uppercase;line-height: 1em;">
       </div>
     </div>
   </section>
-</sectioN>
+</section>
+
+
+
+<section class="p-0" id="webinar">
+  <div class="container-fluid">
+
+    <div class="row">
+      <div class="col-lg-1"></div>
+      <div class="col-lg-10">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-12 text-left">
+              <h1>Those Who Can, Teach.</h1>
+              <h5>The Tagpros Webinar Series</h5>
+              <div style="height:8px; width: 180px;background:rgba(245,126,32,1);margin-bottom: 60px;"></div>
+            </div>
+
+            <div class="col-md-4 p-2 tagpros-sem-sc">
+
+              <div class="tagpros-inner-container">
+                <div class="tagpros-sem-inner p-2" style="background:url('./img/sem04.png');background-size: cover;">            
+                  <div class="tagpros-sem-time p-1" style="background: #1a93b5;color: white;border-radius:3px;font-size:12px;width:min-content;">
+                    07:59
+                  </div>
+                </div>
+                <div class="tagpros-sem-desc">
+                  Web Seminar Title<br>
+                  Speaker Name
+                </div>
+              </div>
+
+            </div>
+
+            <div class="col-md-4 p-2 tagpros-sem-sc">
+              <div class="tagpros-inner-container">
+                <div class="tagpros-sem-inner p-2" style="background:url('./img/sem02.png');background-size: cover;">            
+                <div class="tagpros-sem-time p-1" style="background: #1a93b5;color: white;border-radius:3px;font-size:12px;width:min-content;">
+                    07:59
+                  </div>
+                </div>
+                <div class="tagpros-sem-desc">
+                  Web Seminar Title<br>
+                  Speaker Name
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 p-2 tagpros-sem-sc">
+              <div class="tagpros-inner-container">
+                <div class="tagpros-sem-inner p-2" style="background:url('./img/sem03.png');background-size: cover;">            
+                <div class="tagpros-sem-time p-1" style="background: #1a93b5;color: white;border-radius:3px;font-size:12px;width:min-content;">
+                    07:59
+                  </div>
+                </div>
+                <div class="tagpros-sem-desc">
+                  Web Seminar Title<br>
+                  Speaker Name
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-4 p-2 tagpros-sem-sc">
+              <div class="tagpros-inner-container">
+                <div class="tagpros-sem-inner p-2" style="background:url('./img/sem01.png');background-size: cover;">            
+                <div class="tagpros-sem-time p-1" style="background: #1a93b5;color: white;border-radius:3px;font-size:12px;width:min-content;">
+                    07:59
+                  </div>
+                </div>
+                <div class="tagpros-sem-desc">
+                  Web Seminar Title<br>
+                  Speaker Name
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 p-2 tagpros-sem-sc">
+              <div class="tagpros-inner-container">
+                <div class="tagpros-sem-inner p-2" style="background:url('./img/sem05.png');background-size: cover;">            
+                <div class="tagpros-sem-time p-1" style="background: #1a93b5;color: white;border-radius:3px;font-size:12px;width:min-content;">
+                    07:59
+                  </div>
+                </div>
+                <div class="tagpros-sem-desc">
+                  Web Seminar Title<br>
+                  Speaker Name
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 p-2 tagpros-sem-sc">
+              <div class="tagpros-inner-container">
+                <div class="tagpros-sem-inner p-2" style="background:url('./img/sem06.png');background-size: cover;">            
+                <div class="tagpros-sem-time p-1" style="background: #1a93b5;color: white;border-radius:3px;font-size:12px;width:min-content;">
+                    07:59
+                  </div>
+                </div>
+                <div class="tagpros-sem-desc">
+                  Web Seminar Title<br>
+                  Speaker Name
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-4 p-2 tagpros-sem-sc">
+              <div class="tagpros-inner-container">
+                <div class="tagpros-sem-inner p-2" style="background:url('./img/sem07.png');background-size: cover;">            
+                <div class="tagpros-sem-time p-1" style="background: #1a93b5;color: white;border-radius:3px;font-size:12px;width:min-content;">
+                    07:59
+                  </div>
+                </div>
+                <div class="tagpros-sem-desc">
+                  Web Seminar Title<br>
+                  Speaker Name
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 p-2 tagpros-sem-sc">
+              <div class="tagpros-inner-container">
+                <div class="tagpros-sem-inner p-2" style="background:url('./img/sem08.png');background-size: cover;">            
+                <div class="tagpros-sem-time p-1" style="background: #1a93b5;color: white;border-radius:3px;font-size:12px;width:min-content;">
+                    07:59
+                  </div>
+                </div>
+                <div class="tagpros-sem-desc">
+                  Web Seminar Title<br>
+                  Speaker Name
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 p-2 tagpros-sem-sc">
+              <div class="tagpros-inner-container">
+                <div class="tagpros-sem-inner p-2" style="background:url('./img/sem04.png');background-size: cover;">            
+                <div class="tagpros-sem-time p-1" style="background: #1a93b5;color: white;border-radius:3px;font-size:12px;width:min-content;">
+                    07:59
+                  </div>
+                </div>
+                <div class="tagpros-sem-desc">
+                  Web Seminar Title<br>
+                  Speaker Name
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div style="width:100%;" class="btn btn-outline mt-5 mb-5 p-3">
+            View More Videos
+
+          </div>
+
+
+        </div>
+      </div>
+      <div class="col-lg-1"></div>
+    </div>
+
+  </div>
+
+
+
+</section>
+
+
+<section style="background:#DEF7FB">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-1"></div>
+      <div class="col-lg-10">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-12 text-left">
+              <h1>Latest Tag Blogs</h1>
+              <h5>Read what our Talented and Gifted partners have to say</h5>
+              <div style="height:8px; width: 180px;background:rgba(245,126,32,1);margin-bottom: 60px;"></div>
+            </div>
+          </div><!-- end row -->
+
+          <div class="row">
+
+            <div class="col-md-3 p-2 tagblog-sem-sc">
+
+              <div class="tagblog-inner-container">
+                <div class="tagblog-sem-inner p-2">            
+                  <div class="tagblog-sem-time p-1" style="background: #1a93b5;color: white;border-radius:3px;font-size:12px;width:max-content;">
+                    2 min read
+                  </div>
+                </div>
+                <div class="tagblog-sem-desc">
+                  Blog Title<br>
+                  by Author Name<br>
+                  Month Date 2021
+                </div>
+              </div>
+
+            </div>
+
+            <div class="col-md-3 p-2 tagblog-sem-sc">
+              <div class="tagblog-inner-container">
+                <div class="tagblog-sem-inner p-2">            
+                <div class="tagblog-sem-time p-1" style="background: #1a93b5;color: white;border-radius:3px;font-size:12px;width:max-content;">
+                    2 min read
+                  </div>
+                </div>
+                <div class="tagblog-sem-desc">
+                  Blog Title<br>
+                  by Author Name<br>
+                  Month Date 2021
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 p-2 tagblog-sem-sc">
+              <div class="tagblog-inner-container">
+                <div class="tagblog-sem-inner p-2">            
+                <div class="tagblog-sem-time p-1" style="background: #1a93b5;color: white;border-radius:3px;font-size:12px;width:max-content;">
+                    2 min read
+                  </div>
+                </div>
+                <div class="tagblog-sem-desc">
+                  Blog Title<br>
+                  by Author Name<br>
+                  Month Date 2021
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 p-2 tagblog-sem-sc">
+              <div class="tagblog-inner-container">
+                <div class="tagblog-sem-inner p-2">            
+                <div class="tagblog-sem-time p-1" style="background: #1a93b5;color: white;border-radius:3px;font-size:12px;width:max-content;">
+                    2 min read
+                  </div>
+                </div>
+                <div class="tagblog-sem-desc">
+                 Blog Title<br>
+                  by Author Name<br>
+                  Month Date 2021
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="row">
+            <nav aria-label="Page navigation" class="p-3 mt-3" style="width:100%;">
+  <ul class="pagination justify-content-right">
+    <li class="page-item disabled">
+      <a class="page-link" href="#" tabindex="-1">Previous</a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#">Next</a>
+    </li>
+  </ul>
+</nav>  
+
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-1"></div>
+    </div>
+  </div>
+
+</section>
 
 
 
@@ -276,86 +581,14 @@ text-shadow: 6px 6px 0px #666;text-transform: uppercase;line-height: 1em;">
   </section>
 
 
-  <section class="contact bg-primary tagpros-donate" id="contact">
+  <section class="contact tagpros-donate" id="donate">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-lg-3 col-md-2"></div>
-        <div class="col-lg-6 col-md-8 text-center">
-          <h2 class="section-title" style="margin:0 auto;">YOUR DONATION CAN GO A LONG WAY</h2>
-          <p>Become a Tagpros Sponsor or Patron now!</p>
-
-      
+        <div class="col-lg-3"></div>
+        <div class="col-lg-6 text-center mt-5">
+          
           <!-- the lines below are needed -->
-          <div class="fcf-form-wrap">
-            <div id="fcf-form">
-                <form class="form fcf-form-class" method="post" action="fcf-assets/fcf.process.php">
-
-                    <div class="field md-form">
-                        <label for="Name" class="label has-text-weight-normal">Your name</label>
-                        <div class="control">
-                            <input type="text" name="Name" id="Name" class="input is-full-width" maxlength="100"
-                                data-validate-field="Name">
-                        </div>
-                    </div>
-                    <div class="field md-form">
-                        <label for="Email" class="label has-text-weight-normal">Your email address</label>
-                        <div class="control">
-                            <input type="email" name="Email" id="Email" class="input is-full-width" maxlength="100"
-                                data-validate-field="Email">
-                        </div>
-                    </div>
-                    <div class="field md-form">
-                        <label for="Phone" class="label has-text-weight-normal">Your phone number (optional)</label>
-                        <div class="control">
-                            <input type="tel" name="Phone" id="Phone" class="input is-full-width" maxlength="30"
-                                data-validate-field="Phone">
-                        </div>
-                    </div>
-
-                    <div class="field md-form">
-                        <label for="Package" class="label has-text-weight-normal">Select your preferred Donation Package</label>
-                        <div class="control">
-                            <table style="width: 100%;border:1px solid black;border-radius: 6px;background: #fff;">
-                              <tr>
-                                <td style="width:50%;padding:1em;">
-                                  <h4>
-                                    Sponsor
-                                  </h4>
-                                </td>
-                                <td style="width:50%;border-left:1px solid black;padding:1em;">
-                                  <h4>
-                                    Patron
-                                  </h4>
-                                </td>
-                              </tr>
-                            </table>
-                        </div>
-                    </div>
-
-
-
-                    <div id="fcf-status" class="fcf-status"></div>
-                    <div class="field">
-                        <div class="btn btn-outline btn-xl btn-primary-tagpros-header" style="margin-top:4em;">
-                            <button id="fcf-button" type="submit" class="btn btn-full button is-link is-medium is-fullwidth">DONATE NOW</button>
-                        </div>
-                    </div>
-                    
-                </form>
-            </div>
-            <div id="fcf-thank-you" style="display:none">
-                <!-- Thank you message goes below -->
-                <strong>Thank you</strong>
-                <p>Thanks for contacting us, we will get back in touch with you soon.</p>
-                <!-- Thank you message goes above -->
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-2"></div>       
-      </div> 
-    </div>
-    <script src="fcf-assets/js/fcf.just-validate.min.js"></script>
-    <script src="fcf-assets/js/fcf.form.js"></script>
+          <script type="text/javascript" src="https://form.jotform.com/jsform/211983045076053"></script>
     <!-- the lines above are needed -->
 
 
@@ -370,8 +603,6 @@ text-shadow: 6px 6px 0px #666;text-transform: uppercase;line-height: 1em;">
     <div class="container">
       <img src="img/tagpros-logo-small.png"><br><br>
       <p>&copy; Tagpros 2021. All Rights Reserved.</p>
-      <br>
-      <p>Contact Form by <a href="https://www.freecontactform.com/" class="fcf-attribution-link">FreeContactForm</a></p>
     </div>
   </footer>
 
@@ -388,6 +619,27 @@ text-shadow: 6px 6px 0px #666;text-transform: uppercase;line-height: 1em;">
 
   <!-- Custom scripts for this template -->
   <script src="js/new-age.min.js"></script>
+
+  <script>
+  $(document).ready(function(){
+    /* Get iframe src attribute value i.e. YouTube video url
+    and store it in a variable */
+    var url = $("#tagpros-exp").attr('src');
+    
+    /* Assign empty url value to the iframe src attribute when
+    modal hide, which stop the video playing */
+    $("#modalredeem").on('hide.bs.modal', function(){
+        $("#tagpros-exp").attr('src', '');
+    });
+    
+    /* Assign the initially stored url back to the iframe src
+    attribute when modal is displayed again */
+    $("#modalredeem").on('show.bs.modal', function(){
+        $("#tagpros-exp").attr('src', url);
+    });
+});
+</script>
+
 
 </body>
 

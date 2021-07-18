@@ -548,7 +548,7 @@ canvas {
 
 .btn-primary-tagpros-header {
     color: #fff !important;
-    background: linear-gradient(137deg, rgba(245,126,32,1) 25%, rgba(246,218,39,1) 75%);
+    background: rgba(245,126,32,1);
     border-color: #ac5a02;
 }
 
@@ -756,7 +756,7 @@ min-height: 320px;
   }
 
   .masthead h1 {
-    font-size: 620% !important;
+    font-size: 600% !important;
   }
 
   .buy-more {
@@ -921,9 +921,10 @@ height: 100%;
   .sub-header-tagpros p {font-size: 1.2em !important;}
   .we-care-pic img {width: 100% !important;}
   .we-care-copy {margin-top: 11em !important;}
-  .we-care-top {font-size:3.5vw;text-shadow: 3px 3px 1px #000 !important;color:white;}
-  .we-care-bottom {font-size:10vw;text-shadow: 3px 3px 1px #000 !important;color:white;}
+  .we-care-top {font-size:1em !important;text-shadow: 3px 3px 1px #000 !important;color:white;}
+  .we-care-bottom {font-size:2.4em !important;text-shadow: 3px 3px 1px #000 !important;color:white;}
   .we-care-section {width: 100% !important;}
+  .btn-primary-tagpros-header {width: 100% !important;}
 }
 
 
@@ -972,7 +973,7 @@ z-index: -5;
 .vid-wrapper {position: absolute;z-index: 1;right: 0;width: 100%;top: 10%;}
 
 .sub-header-tagpros {width:75%;}
-.sub-header-tagpros p {font-family: 'Source Sans Pro' !important;margin-bottom: 2em;font-size: 1.6em;}
+.sub-header-tagpros p {font-family: 'Source Sans Pro' !important;margin-bottom: 2em;font-size: 1.4em;}
 
 #mainNav .navbar-nav > li > a {
     font-size:1em;
@@ -983,7 +984,20 @@ z-index: -5;
 .font-7x {font-size:700%;}
 
 .we-care-copy {position: relative;z-index: 1;padding-left:2em;margin-top: 4.2em;}
-.we-care-top {font-size:3.5vw;text-shadow: 6px 6px 1px #FFF;}
-.we-care-bottom {font-size:10vw;text-shadow: 6px 6px 1px #FFF;}
+.we-care-top {font-size:2.5vw;text-shadow: 6px 6px 1px #FFF;}
+.we-care-bottom {font-size:8vw;text-shadow: 6px 6px 1px #FFF;}
 .we-care-pic {position: absolute;z-index: 0;}
 .we-care-section {width:40%;}
+
+.tagpros-sem-sc {min-height: 240px;padding:1em;}
+.tagpros-sem-inner {height:226px;}
+.tagpros-inner-container {border:1px solid #CCC;}
+.tagpros-sem-desc {background:#FFF;height:auto;padding:0.5em;}
+
+.tagblog-sem-sc {min-height: 420px;padding:1em;}
+.tagblog-sem-inner {height:345px;}
+.tagblog-inner-container {border:1px solid #CCC;}
+.tagblog-sem-desc {background:#FFF;height:auto;padding:0.5em;}
+
+.tagpros-donate {background:url('../img/worn_dots.png');background-color:rgba(246,218,39,0.9)}
+.init-hov {background:rgba(0,0,0,0.4);border-radius: 4px;}
