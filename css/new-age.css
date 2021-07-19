@@ -596,145 +596,7 @@ section.cta2 .overlay {
 }
 
 
-/* Contact Section
---------------------------------*/
 
-#contact {
-  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
-  padding: 60px 0;
-  overflow: hidden;
-}
-
-#contact .section-header {
-  padding-bottom: 30px;
-}
-
-#contact .social-links {
-  padding-bottom: 20px;
-}
-
-#contact .social-links a {
-  font-size: 18px;
-  display: inline-block;
-  background: #fff;
-  color: #007bff;
-  line-height: 1;
-  padding: 8px 0;
-  margin-right: 4px;
-  border-radius: 50%;
-  text-align: center;
-  width: 36px;
-  height: 36px;
-  transition: 0.3s;
-  border: 1px solid #007bff;
-}
-
-#contact .social-links a:hover {
-  background: #007bff;
-  color: #fff;
-}
-
-#contact .info {
-  color: #283d50;
-}
-
-#contact .info i {
-  font-size: 32px;
-  color: white;
-  line-height: 1;
-  margin-bottom:16px;
-}
-
-#contact .info p {
-  line-height: 28px;
-  font-size: 14px;
-  color: black !important;
-}
-
-#contact .form #sendmessage {
-  color: #671d89;
-  border: 1px solid #671d89;
-  display: none;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-  margin-bottom: 15px;
-}
-
-#contact .form #errormessage {
-  color: red;
-  display: none;
-  border: 1px solid red;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-  margin-bottom: 15px;
-}
-
-#contact .form .validation {
-  color: red;
-  display: none;
-  margin: 0 0 20px;
-  font-weight: 400;
-  font-size: 13px;
-}
-
-#contact .form input,
-#contact .form textarea {
-    width: 100%;
-    line-height: 2em;
-    padding: 0.2em 1em;
-    border-radius: 0.5em;
-    border: 1px solid brown;
-}
-
-#contact .form button[type="submit"] {
-  transition: 0.3s;
-}
-
-#contact .form button[type="submit"]:hover {
-  cursor: pointer;
-}
-
-#contact textarea {
-  width: 100%;
-  min-height: 10em;
-}
-
-#contact .md-form {
-  margin-bottom: 1em;
-}
-
-#contact .status {
-  margin-top: 1em;
-}
-
-
-.btn {
-  margin: 0.5em auto;
-}
-
-
-.device-mockup.iphone6_plus.portrait.white > .device, .device-mockup.iphone6_plus.white > .device {
-  background: none !important;
-}
-
-.shoprize-guy {
-text-align: center;
-height: 90%;
-display: flex;
-bottom: 0;
-right: 0;
-min-height: 320px;
-}
-
-.shoprize-guy img {
-  margin: 0 auto;
-}
-
-.buy-more {
-  margin: 120px auto;
-}
 
 /* Custom Media Queries */
 
@@ -917,11 +779,13 @@ height: 100%;
   .sub-header-tagpros p {font-size: 1.2em !important;}
   .we-care-pic img {width: 100% !important;}
   .we-care-copy {margin-top: 1em !important;}
-  .we-care-top {font-size:1em !important;color:black;}
-  .we-care-bottom {font-size:2.4em !important;color:black;}
+  .we-care-top {font-size:1.6em !important;color:black;}
+  .we-care-bottom {font-size:3.2em !important;color:black;}
   .we-care-section {width: 100% !important;}
   .btn-primary-tagpros-header {width: 100% !important;}
   .btn-primary-tagpros-header-learn {background: white !important}
+
+  iframe {width: 100% !important;}
 }
 
 
@@ -977,7 +841,7 @@ float: right;
 .font-6x {font-size:600%;}
 .font-7x {font-size:700%;}
 
-.we-care-copy {position: relative;z-index: 1;padding-left:2em;margin-top: 1.2em;}
+.we-care-copy {position: relative;z-index: 1;margin-top: 1.2em;}
 .we-care-top {font-size:2.5vw;text-shadow: 6px 6px 1px #FFF;}
 .we-care-bottom {font-size:7vw;text-shadow: 6px 6px 1px #FFF;}
 .we-care-pic {position: absolute;z-index: 0;}
@@ -988,6 +852,7 @@ float: right;
 .tagpros-sem-inner {height:226px;}
 .tagpros-inner-container {border:1px solid #CCC;height:100%;}
 .tagpros-sem-desc {background:#FFF;height:auto;padding:0.5em;border-top: 1px solid #ccc;}
+.tagpros-sem-desc a {color:#1a93b5;}
 
 .tagblog-sem-sc {min-height: 420px;padding:1em;}
 .tagblog-sem-inner {height:345px;}
@@ -1004,3 +869,7 @@ float: right;
 .tagpros-team-modal {max-width: 100%;position: relative;width:70%;margin:0 auto;}
 
 .tagpros-team .tagpros-bio {cursor: pointer;text-decoration: underline;color:#1a93b5 !important;}
+
+.btn {
+  margin: 0.5em auto;
+}
