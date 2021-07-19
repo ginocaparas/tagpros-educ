@@ -842,10 +842,7 @@ min-height: 320px;
   }
 
     header.masthead {
-    height: 100vh;
-    min-height: 120vh;
     padding-top: 0;
-    padding-bottom: 0;
   }
   header.masthead .header-content {
     margin-bottom: 0;
@@ -857,8 +854,7 @@ min-height: 320px;
   }
 
   .shoprize-masthead-content {
-    margin-top: 8em !important;
-    margin-bottom: auto !important;
+    margin: 8em auto !important;
   }
   #tagpros-exp {width: 868px !important;height:465px !important;}
 }
@@ -925,6 +921,7 @@ height: 100%;
   .we-care-bottom {font-size:2.4em !important;color:black;}
   .we-care-section {width: 100% !important;}
   .btn-primary-tagpros-header {width: 100% !important;}
+  .btn-primary-tagpros-header-learn {background: white !important}
 }
 
 
@@ -960,13 +957,10 @@ clip-path: circle(50% at 50% 50%);
 .fullscreen-bg__video {
 position: relative;
 top: 8%;
-right: -48%;
-width: 50%;
-height: 50%;
-min-width: 50%;
-min-height: 50%;
-overflow: hidden;
+right: 4em;
 z-index: -5;
+max-width: 670px !important;
+float: right;
 }
 
 
@@ -983,10 +977,12 @@ z-index: -5;
 .font-6x {font-size:600%;}
 .font-7x {font-size:700%;}
 
-.we-care-copy {position: relative;z-index: 1;padding-left:2em;margin-top: 4.2em;}
+.we-care-copy {position: relative;z-index: 1;padding-left:2em;margin-top: 1.2em;}
 .we-care-top {font-size:2.5vw;text-shadow: 6px 6px 1px #FFF;}
 .we-care-bottom {font-size:7vw;text-shadow: 6px 6px 1px #FFF;}
 .we-care-pic {position: absolute;z-index: 0;}
+
+.tagpros-page-header {height:420px;}
 
 .tagpros-sem-sc {min-height: 240px;padding:1em;}
 .tagpros-sem-inner {height:226px;}
@@ -1004,4 +1000,7 @@ z-index: -5;
 .tagpros-team .tagpros-inner-container, .tagpros-team .tagpros-sem-desc {border:0 !important;}
 .tagpros-team .tagpros-sem-desc {text-align: center}
 .tagpros-team .tagpros-sem-inner {height:auto !important;text-align: center;}
-.tagpros-team .tagpros-sem-inner img {max-width:275px; }
+.tagpros-team .tagpros-sem-inner img {max-width:275px; width: 100%;}
+.tagpros-team-modal {max-width: 100%;position: relative;width:70%;margin:0 auto;}
+
+.tagpros-team .tagpros-bio {cursor: pointer;text-decoration: underline;color:#1a93b5 !important;}
