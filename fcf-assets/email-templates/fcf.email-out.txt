@@ -1,7 +1,0 @@
-Thank you for your message! The Shoprize team will contact you as soon as possible.
-    
-    
-Your name: {Name}
-Your email address: {Email}
-Your phone number: {Phone}
-Your message: {Message}

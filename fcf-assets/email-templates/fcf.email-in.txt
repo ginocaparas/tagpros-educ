@@ -1,7 +1,0 @@
-Hello! We've received a new message from the Shoprize.ph Contact Form, please respond as soon as possible. Thank you!
-    
-    
-Your name: {Name}
-Your email address: {Email}
-Your phone number: {Phone}
-Your message: {Message}
