@@ -775,7 +775,8 @@ top: 6% !important;
 width: 100%;
 height: 100%;
   }
-  .sub-header-tagpros {width:95%;}
+  .header-content h1 {padding-left: 0.2em;}
+  .sub-header-tagpros {width: 90% !important;margin: 0 auto !important;text-align: justify;}
   .sub-header-tagpros p {font-size: 1.2em !important;}
   .we-care-pic img {width: 100% !important;}
   .we-care-copy {margin-top: 1em !important;}
