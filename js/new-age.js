@@ -30,8 +30,15 @@
   var navbarCollapse = function() {
     if ($("#mainNav").offset().top > 100) {
       $("#mainNav").addClass("navbar-shrink");
-    } else {
+      $('#tagpros-logo-nav').attr("src","./img/tagpros-logo-small2.png");
+    } 
+    else if ($(window).width()<973){
+      $("#mainNav").addClass("navbar-shrink");
+      $('#tagpros-logo-nav').attr("src","./img/tagpros-logo-small2.png");
+    }
+    else {
       $("#mainNav").removeClass("navbar-shrink");
+      $('#tagpros-logo-nav').attr("src","./img/tagpros-logo-small.png");
     }
   };
   // Collapse now if page is not at top
