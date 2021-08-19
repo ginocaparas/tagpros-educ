@@ -26,10 +26,11 @@
     offset: 54
   });
 
-  // Collapse Navbar
+ // Collapse Navbar
   var navbarCollapse = function() {
-    if ($("#mainNav").offset().top > 100) {
+    if ($("#mainNav").offset().top > 140) {
       $("#mainNav").addClass("navbar-shrink");
+      $("#mainNavSearch").addClass("navbar-search-visible");
       $('#tagpros-logo-nav').attr("src","./img/tagpros-logo-small2.png");
     } 
     else if ($(window).width()<973){
@@ -38,7 +39,8 @@
     }
     else {
       $("#mainNav").removeClass("navbar-shrink");
-      $('#tagpros-logo-nav').attr("src","./img/tagpros-logo-small.png");
+      $("#mainNavSearch").removeClass("navbar-search-visible");
+      $('#tagpros-logo-nav').attr("src","./img/tagpros-logo-small2.png");
     }
   };
   // Collapse now if page is not at top
@@ -46,4 +48,24 @@
   // Collapse the navbar when page is scrolled
   $(window).scroll(navbarCollapse);
 
+
 })(jQuery); // End of use strict
+
+
+(function() {
+    // Add event listener
+    document.addEventListener("mousemove", parallax);
+    const elem = document.querySelector("#parallax");
+    // Magic happens here
+    function parallax(e) {
+        let _w = window.innerWidth/2;
+        let _h = window.innerHeight/2;
+        let _mouseX = e.clientX;
+        let _mouseY = e.clientY;
+        let _depth1 = `${50 - (_mouseX - _w) * 0.01}% ${5 - (_mouseY - _h) * 0.01}%`;
+        let x = `${_depth1}`;
+        console.log(x);
+        elem.style.backgroundPosition = x;
+    }
+
+})();
