@@ -108,8 +108,8 @@ section h2 {
 
 #mainNav .navbar-nav > li > a:hover,
 #mainNav .navbar-nav > li > a:focus:hover {
-  color: #fdcc52;
-  border-bottom: 0.42em solid orange;
+  color: #FE7A15;
+  border-bottom: 0.42em solid #FE7A15;
   padding-bottom: 0;
 }
 
