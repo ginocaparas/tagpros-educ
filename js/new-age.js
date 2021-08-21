@@ -28,7 +28,8 @@
 
  // Collapse Navbar
   var navbarCollapse = function() {
-    if ($("#mainNav").offset().top > 140) {
+    if ($("#mainNav").offset().top > 60) {
+      $("#mainNav").removeClass("navbar-announce");
       $("#mainNav").addClass("navbar-shrink");
       $("#mainNavSearch").addClass("navbar-search-visible");
       $('#tagpros-logo-nav').attr("src","./img/tagpros-logo-small2.png");
@@ -38,6 +39,7 @@
       $('#tagpros-logo-nav').attr("src","./img/tagpros-logo-small2.png");
     }
     else {
+      $("#mainNav").addClass("navbar-announce");
       $("#mainNav").removeClass("navbar-shrink");
       $("#mainNavSearch").removeClass("navbar-search-visible");
       $('#tagpros-logo-nav').attr("src","./img/tagpros-logo-small2.png");
