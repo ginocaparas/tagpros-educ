@@ -587,10 +587,13 @@ section.cta2 .overlay {
 
 /* Custom Media Queries */
 
+@media (max-width: 1600px) {
+  .form-g01-div {width: 260px;}
+  #mainNav .navbar-nav > li > a {font-size: 1em !important;}
+}
+
+
 @media (min-width: 1200px) {
-    #mainNav .navbar-nav > li > a {
-  font-size:1.2em !important;
-  }
   .masthead {
     padding-top: 150px;
   }
@@ -646,10 +649,7 @@ section.cta2 .overlay {
   }
   .sub-header-tagpros {width:75%;}
   .sub-header-tagpros p {font-size: 1em !important;}
-  .shoprize-masthead-content {
-    margin-top: 7.5em !important;
-  }
-.we-care-section {width: 100% !important;background: white;}
+  #subscribe {padding-bottom: 0 !important;}
 }
 
 
@@ -716,12 +716,8 @@ section.cta2 .overlay {
 }
 
 
-@media (min-width: 576px) {
-  .tagpros-vid {
-    top: 0%;
-    right: -33%;
-    width: 65%;
-  }
+@media (min-width: 576px && max-width: 992px) {
+  #announce {margin-top:90px;}
 }
 
 
@@ -742,14 +738,14 @@ section.cta2 .overlay {
   font-size:0.8em !important;
   }
 
-
+  #announce {font-size: 0.8em !important;}
 }
 
 
 
 /* MOBILE RESPONSIVE */
 @media (max-width: 575.98px) { 
-  #mainNav {height: auto;}
+  #mainNav {height: auto;margin-top: 0 !important;}
   .navbar-brand {width:50%; }
   #tagpros-logo-nav {width: 100%;}
   img.scan-receipt-img {
@@ -759,11 +755,11 @@ section.cta2 .overlay {
   .shoprize-masthead-row {
     margin: 10em auto 0 auto !important;
     }
-  .masthead {padding-top: 40px !important;}
+  .masthead {padding-top: 40px !important; padding-bottom: 0 !important;}
   .masthead h1 {
     margin-bottom: 0;
   }
-
+  #parallax {margin-top:2em;}
   #announce {margin-top: 60px;}
   #pioneering h5 {margin-bottom: 2em;}
   .button-box button {width: 100%;}
@@ -1196,8 +1192,8 @@ form label {
 
 
 #announce {
-  padding:20px;
-  background-color: #e55d45;
+  padding:15px;
+  background-color: #f11f1f;
   text-align: center;
   width: 100%;
   color: white;
@@ -1209,4 +1205,8 @@ form label {
 
 .navbar-announce {
   margin-top: 60px;
+}
+
+.subscribe-img {
+  background-image: url('../img/subscribe.png');background-size: cover;background-position: right;min-height: 200px;
 }

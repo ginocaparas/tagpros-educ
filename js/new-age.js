@@ -34,7 +34,8 @@
       $("#mainNavSearch").addClass("navbar-search-visible");
       $('#tagpros-logo-nav').attr("src","./img/tagpros-logo-small2.png");
     } 
-    else if ($(window).width()<973){
+    else if ($(window).width()<1200){
+      $("#mainNav").addClass("navbar-announce");
       $("#mainNav").addClass("navbar-shrink");
       $('#tagpros-logo-nav').attr("src","./img/tagpros-logo-small2.png");
     }
