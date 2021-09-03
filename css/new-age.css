@@ -649,7 +649,7 @@ section.cta2 .overlay {
   }
   .sub-header-tagpros {width:75%;}
   .sub-header-tagpros p {font-size: 1em !important;}
-  #subscribe {padding-bottom: 0 !important;}
+  #subscribe {padding-bottom: 0 !important}
 }
 
 
@@ -858,8 +858,7 @@ section.cta2 .overlay {
 
 #tagpros-exp {width: 100% !important;min-height: 306px !important;}
 
-
-header .hero-action {
+header .hero-action, .tagpros-search .hero-action {
   background: #F8D90F; /* Tagpros Yellow */
   box-shadow: 12px 12px #CCC;
 }
@@ -1209,4 +1208,12 @@ form label {
 
 .subscribe-img {
   background-image: url('../img/subscribe.png');background-size: cover;background-position: right;min-height: 200px;
+}
+
+.tagstar {
+    color: rgb(253, 200, 64);
+}
+.tagheart {
+   font-size:1.2em;
+   color:#dc3545;
 }
