@@ -833,3 +833,23 @@ form.shop-form-2 {padding-right:2em;}
 
 
 #classAccordion .btn-link {color:#218838}
+
+.checkout .nav>li .nav-link {
+  display: inline-block;
+}
+
+.checkout .nav-pills .nav-link.active, .checkout .nav-pills .show > .nav-link {
+  background-color: #7AC943;
+}
+
+.checkout .media {
+  padding:2em;
+}
+
+.checkout .media:hover {
+  background-color: #FAFAFA;
+}
+
+.checkout .remove:hover {
+  color: #dc3545;
+}

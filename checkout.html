@@ -121,175 +121,344 @@
     <!-- content -->
     <section id="content">
 
-        <div class="shop">
+        <div class="shop checkout">
             <div class="container-fluid">
                 <div class="row">
-                <div class="col-md-10 offset-md-1">
-
-                <div class="row">
-                    <div class="empty-space h90-xs h100-md"></div>
-                    <div class="empty-space h0-xs h80-md"></div>
-                    <div class="row text-center">
-                        <div class="col-xs-12">
-                           <h1 class="h1-2">Checkout</h1> 
-                        </div>
-                        <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-12 col-xs-offset-0">
-                            <div class="empty-space h20-xs"></div>
-                            <p>Curabitur ultricies semper eleifend. Pellentesque molestie purus non something else not tempus bibendum mattis making something</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="empty-space h25-xs h55-md"></div>
-                <div class="row">
-                    <div class="col-xs-12">
-                        <div class="tabs-block">
-                            <div class="tab-menu active">01 Delivery</div>
-                            <div class="tab-menu">02 Payment</div>
-                            <div class="empty-space 15-xs h35-md"></div>
-                            <div class="tab-entry" style="display: block;">
-                                <form>
-                                    <h4 class="h4">Shipping info</h4>
-                                    <div class="empty-space h25-xs h30-md"></div>
-                                    <div class="input-wrapper">
-                                        <div class="input-style half">
-                                            <input id="inputFirstName" name="name" type="text" class="input" required>
-                                            <label for="inputFirstName">First Name</label>
-                                        </div>
-                                        <div class="input-style half half-right">
-                                            <input id="inputLastName" name="name" type="text" class="input" required>
-                                            <label for="inputLastName">Last Name</label>
-                                        </div>
-                                        <div class="input-style half">
-                                            <input id="inputEmail" name="email" type="text" class="input" required>
-                                            <label for="inputEmail">E-mail</label>
-                                        </div>
-                                        <div class="input-style half half-right">
-                                            <input id="inputPhoneNumber" name="phonenumber" type="text" class="input" required>
-                                            <label for="inputPhoneNumber">Phone Number</label>
-                                        </div>
-                                        <div class="input-style third">
-                                            <input id="inputZipCode" name="zipcode" type="text" class="input" required>
-                                            <label for="inputZipCode">ZIP Code</label>
-                                        </div>
-                                        <select name="country" class="select-box third third-right">
-                                            <option disabled selected>Country</option>
-                                            <option value="country1">Country1</option>
-                                            <option value="country2">Country2</option>
-                                            <option value="country3">Country3</option>
-                                            <option value="country4">Country4</option>
-                                        </select>
-                                        <select name="city" class="select-box">
-                                            <option disabled selected>City</option>
-                                            <option value="city1">City1</option>
-                                            <option value="city2">City2</option>
-                                            <option value="city3">City3</option>
-                                            <option value="city4">City4</option>
-                                        </select>
-                                        <div class="input-style">
-                                            <input id="inputAddress" name="address" type="text" class="input" required>
-                                            <label for="inputAddress">Address</label>
-                                        </div>
-                                    </div>
-                                    <div class="empty-space h15-xs h30-md"></div>
-                                    <h4 class="h4">Shipping Method</h4>
-                                    <div class="empty-space h15-xs h15-md"></div>
-                                    <div class="radio-item">
-                                        <label class="radio">
-                                            <input type="radio" name="1" checked/><span class="text">Standart<span>( Free )</span></span>
-                                        </label>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tem por incididunt ut labore et dolore magna aliqua.</p>
-                                    </div>
-                                    <div class="radio-item right">
-                                        <label class="radio">
-                                            <input type="radio" name="1"/><span class="text">Product Dolor<span>( 20&#36; )</span></span>
-                                        </label>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tem por incididunt ut labore et dolore magna aliqua.</p>
-                                    </div>
-                                    <div class="empty-space h5-xs h35-md fl"></div>
-                                    <div class="text-center btn-inline">
-                                        <div class="btn-wrap"><a href="#" class="btn-1 border"><span>back to cart</span></a></div>
-                                        <div class="btn-wrap"><a href="#" class="btn-2"><span>pay <span class="price">&#36;690<sup>00</sup></span></span></a></div>
-                                    </div>
-                                </form>
-                            </div>
-                            <div class="tab-entry">
-                                <form>
-                                    <h4 class="h4">Payment Method</h4>
-                                    <div class="empty-space h15-xs h15-md"></div>
-                                    <div class="radio-item">
-                                        <label class="radio">
-                                            <input type="radio" name="2" checked/><span class="text">credit card</span>
-                                        </label>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tem por incididunt ut labore et dolore magna aliqua.</p>
-                                    </div>
-                                    <div class="radio-item right">
-                                        <label class="radio">
-                                            <input type="radio" name="2"/><span class="text">PayPal</span>
-                                        </label>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tem por incididunt ut labore et dolore magna aliqua.</p>
-                                    </div>
-                                    <div class="radio-item">
-                                        <label class="radio">
-                                            <input type="radio" name="2"/><span class="text">Amazon payment</span>
-                                        </label>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tem por incididunt ut labore et dolore magna aliqua.</p>
-                                    </div>
-                                    <div class="radio-item right">
-                                        <label class="radio">
-                                            <input type="radio" name="2"/><span class="text">Cash on delivery<span>( &#43;10&#37; from total )</span></span>
-                                        </label>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tem por incididunt ut labore et dolore magna aliqua.</p>
-                                    </div>
-                                    <div class="empty-space h15-xs h45-md fl"></div>
-                                    <h4 class="h4">Shipping info</h4>
-                                    <div class="empty-space h25-xs h30-md"></div>
-                                    <div class="input-wrapper">
-                                        <div class="input-style half">
-                                            <input id="inputFirstName2" name="name" type="text" class="input" required>
-                                            <label for="inputFirstName2">Cardholder Name</label>
-                                        </div>
-                                        <div class="input-style half half-right">
-                                            <input id="inputLastName2" name="name" type="text" class="input" required>
-                                            <label for="inputLastName2">Card Number</label>
-                                        </div>
-
-                                        <div class="select-date">
-                                            <span>Expiradion date</span>
-                                            <select name="month" class="select-box">
-                                                <option disabled selected>Month</option>
-                                                <option value="month1">Month1</option>
-                                                <option value="month2">Month2</option>
-                                                <option value="month3">Month3</option>
-                                                <option value="month4">Month4</option>
-                                            </select>
-                                            <select name="year" class="select-box">
-                                                <option disabled selected>Year</option>
-                                                <option value="year1">Year1</option>
-                                                <option value="year2">Year2</option>
-                                                <option value="year3">Year3</option>
-                                                <option value="year4">Year4</option>
-                                            </select>
-                                        </div>
-                                        <div class="input-style third third-right">
-                                            <input id="inputCvv" name="cvv" type="password" class="input" required>
-                                            <label for="inputCvv">CVV</label>
-                                        </div>
-                                        <div class="input-style">
-                                            <input id="inputAddress2" name="address" type="text" class="input" required>
-                                            <label for="inputAddress2">Address</label>
-                                        </div>
-                                    </div>
-                                    <div class="empty-space h15-xs h30-md"></div>
-                                    <div class="text-center btn-inline">
-                                        <div class="btn-wrap"><a href="#" class="btn-1 border"><span>back to delivery</span></a></div>
-                                        <div class="btn-wrap"><a href="#" class="btn-2"><span>pay <span class="price">&#36;690<sup>00</sup></span></span></a></div>
-                                    </div>
-                                </form>
+                    <div class="col-md-10 offset-md-1">
+                        <div class="empty-space h90-xs h50-md"></div>
+                        <div class="row text-center">
+                            <div class="col-lg-12">
+                               <h1 class="h1-2">Checkout</h1> 
                             </div>
                         </div>
+                        <div class="empty-space h25-xs h55-md"></div>
+                        <div class="row">
+                            <div class="col-12">
+                                <ul class="nav nav-pills nav-justified mb-3" id="pills-tab" role="tablist">
+                                    <li class="nav-item">
+                                      <a class="nav-link active" href="#del" id="delivery" data-toggle="tab" aria-controls="delivery" aria-selected="true">01 Confirm Cart</a>
+                                      <a class="nav-link" href="#pay" id="payment" data-toggle="tab" aria-controls="payment" aria-selected="false">02 Checkout</a>
+                                      <a class="nav-link" href="#conf" id="confirmation" data-toggle="tab" aria-controls="confirmation" aria-selected="false">03 Success!</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-10 offset-md-1">
+                                <div class="tab-content" id="pills-tabContent">
+                                  <div class="tab-pane fade show active" id="del" role="tabpanel" aria-labelledby="delivery">
+                                        <div class="alert alert-success" style="min-height: 100px">
+                                            <div class="float-left">
+                                                Total Amount: <h3>P4500</h3>
+                                            </div>
+                                            <button class="btn btn-success mt-4 float-right" href="#pay" data-toggle="tab" aria-controls="payment" aria-selected="true">
+                                                    Continue to Checkout
+                                            </button>
+                                        </div>
+                                    <ul class="list-unstyled">
+                                            <li class="media">
+                                                <div class="row">
+                                                    <div class="col-md-3">
+                                                        <img class="w-100 mr-3" src="./img/sem04.png" alt="Generic placeholder image">
+                                                        <div class="w-100 text-center mt-2">
+                                                            <a href="#" class="remove"><i class="fa fa-times"></i> Remove Class</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="media-body">
+                                                            <article class="description">
+                                                                <h5>Encouraging Creative Production in the Virtual Classroom</h5>
+                                                                <div style="height:60px;">
+                                                                    <div class="circle circle-1"></div> <b>Joselle Salvador</b>
+                                                                </div>
+                                                                <div class="stars mb-3">
+                                                                    <i class="fa fa-star mr-2 tagstar"></i><i class="fa fa-star mr-2 tagstar"></i><i class="fa fa-star mr-2 tagstar"></i><i class="fa fa-star mr-2 tagstar"></i><i class="fa fa-star mr-2 tagstar"></i> 96 ratings <i class="fa fa-heart float-right mr-2 tagheart"></i>
+                                                                </div>
+                                                                <p>Discover the art of teaching Visual Arts to kids and learn how to maximize learning platforms to harness your students' creativity!</p>
+                                                                <div class="class-desc">
+                                                                    <a data-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1">
+                                                                        See Class Description <i class="fas fa-chevron-down"></i>
+                                                                    </a> 
+
+                                                                    <div class="collapse" id="collapseExample1">
+                                                                      <div class="card card-body">
+                                                                        <p>
+                                                                            <span><i class="fa fa-calendar-alt mr-2 text-muted"></i> Starting Oct. 10, 2021</span>
+                                                                            <span><i class="fa fa-clock mr-2 text-muted"></i>T-Th 6:00-7:00pm</span>
+                                                                            <span><i class="fa fa-graduation-cap mr-2 text-muted"></i>Junior High School and up</span>
+                                                                            <span><i class="fa fa-users mr-2 text-muted"></i>3-20 learners per class</span>
+                                                                        </p>
+                                                                      </div>
+                                                                    </div>
+
+                                                                </div>
+                                                            </article>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-3">
+                                                        <div class="alert alert-warning">
+                                                            <span class="price text-left">
+                                                                <div class="class-price">
+                                                                        <h5>P1500</h5> per class
+                                                                        <span class="badge badge-danger ml-2">50% OFF</span>
+                                                                    </div>
+                                                            </span>
+                                                        </div>
+                                                        <div class="mt-4 pt-4">
+                                                            <b>Who will attend this class?</b>
+                                                            <select name="sortby" class="select-box">
+                                                                <option selected value="sort1">Henry</option>
+                                                                <option value="sort2">Olivia</option>
+                                                                <option value="sort3">Andrea</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="py-4">
+                                                            <b>Select Schedule</b>
+                                                            <select name="sortby" class="select-box">
+                                                                <option selected value="sort1">Tuesday, October xx, 2021, 6pm</option>
+                                                                <option value="sort2">Tuesday, October xx, 2021, 8pm</option>
+                                                                <option value="sort3">Thursday, October xx, 2021, 6pm</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="media">
+                                                <div class="row">
+                                                    <div class="col-md-3">
+                                                        <img class="w-100 mr-3" src="./img/sem06.png" alt="Generic placeholder image">
+                                                        <div class="w-100 text-center mt-2">
+                                                            <a href="#" class="remove"><i class="fa fa-times"></i> Remove Class</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="media-body">
+                                                            <article class="description">
+                                                                <h5>Coding the Easiest Way Using Online Simulation Tools to Learn Computer Programming</h5>
+                                                                <div style="height:60px;">
+                                                                    <div class="circle circle-2"></div> <b>Dominic Sales</b>
+                                                                </div>
+                                                                <div class="stars mb-3">
+                                                                    <i class="fa fa-star mr-2 tagstar"></i><i class="fa fa-star mr-2 tagstar"></i><i class="fa fa-star mr-2 tagstar"></i><i class="fa fa-star mr-2 tagstar"></i><i class="fa fa-star mr-2 tagstar"></i> 96 ratings <i class="fa fa-heart float-right mr-2 tagheart"></i>
+                                                                </div>
+                                                                <p>Let's explore the features and advantages of online simulation tools in teaching robotics. Learn how to write a code, create, and design a circuit and simulate them to see the results!</p>
+                                                                <div class="class-desc">
+                                                                    <a data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample2">
+                                                                        See Class Description <i class="fas fa-chevron-down"></i>
+                                                                    </a> 
+
+                                                                    <div class="collapse" id="collapseExample2">
+                                                                      <div class="card card-body">
+                                                                        <p>
+                                                                            <span><i class="fa fa-calendar-alt mr-2 text-muted"></i> Starting Oct. 10, 2021</span>
+                                                                            <span><i class="fa fa-clock mr-2 text-muted"></i>T-Th 6:00-7:00pm</span>
+                                                                            <span><i class="fa fa-graduation-cap mr-2 text-muted"></i>Junior High School and up</span>
+                                                                            <span><i class="fa fa-users mr-2 text-muted"></i>3-20 learners per class</span>
+                                                                        </p>
+                                                                      </div>
+                                                                    </div>
+
+                                                                </div>
+                                                            </article>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-3">
+                                                        <div class="alert alert-warning">
+                                                            <span class="price text-left">
+                                                                <div class="class-price">
+                                                                        <h5>P1500</h5> per class
+                                                                        <span class="badge badge-danger ml-2">50% OFF</span>
+                                                                    </div>
+                                                            </span>
+                                                        </div>
+                                                        <div class="mt-4 pt-4">
+                                                            <b>Who will attend this class?</b>
+                                                            <select name="sortby" class="select-box">
+                                                                <option selected value="sort1">Henry</option>
+                                                                <option value="sort2">Olivia</option>
+                                                                <option value="sort3">Andrea</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="py-4">
+                                                            <b>Select Schedule</b>
+                                                            <select name="sortby" class="select-box">
+                                                                <option selected value="sort1">Tuesday, October xx, 2021, 6pm</option>
+                                                                <option value="sort2">Tuesday, October xx, 2021, 8pm</option>
+                                                                <option value="sort3">Thursday, October xx, 2021, 6pm</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="media">
+                                                <div class="row">
+                                                    <div class="col-md-3">
+                                                        <img class="w-100 mr-3" src="./img/sem08.png" alt="Generic placeholder image">
+                                                        <div class="w-100 text-center mt-2">
+                                                            <a href="#" class="remove"><i class="fa fa-times"></i> Remove Class</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="media-body">
+                                                            <article class="description">
+                                                                <h5>Gulat Mulat sa Filipino</h5>
+                                                                <div style="height:60px;">
+                                                                    <div class="circle circle-3"></div> <b>Ivy Enaje</b>
+                                                                </div>
+                                                                <div class="stars mb-3">
+                                                                    <i class="fa fa-star mr-2 tagstar"></i><i class="fa fa-star mr-2 tagstar"></i><i class="fa fa-star mr-2 tagstar"></i><i class="fa fa-star mr-2 tagstar"></i><i class="fa fa-star mr-2 tagstar"></i> 96 ratings <i class="fa fa-heart float-right mr-2 tagheart"></i>
+                                                                </div>
+                                                                <p>In her webinar workshop, "Gulat Mulat sa Filipino," Ivy will share strategies on how to engage students in an online Filipino class through relevant use of the language. She also aims to discuss approaches on how to lead students to be proud of their cultural heritage through Philippine Literature. </p>
+                                                                <div class="class-desc">
+                                                                    <a data-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample3">
+                                                                        See Class Description <i class="fas fa-chevron-down"></i>
+                                                                    </a> 
+
+                                                                    <div class="collapse" id="collapseExample3">
+                                                                      <div class="card card-body">
+                                                                        <p>
+                                                                            <span><i class="fa fa-calendar-alt mr-2 text-muted"></i> Starting Oct. 10, 2021</span>
+                                                                            <span><i class="fa fa-clock mr-2 text-muted"></i>T-Th 6:00-7:00pm</span>
+                                                                            <span><i class="fa fa-graduation-cap mr-2 text-muted"></i>Junior High School and up</span>
+                                                                            <span><i class="fa fa-users mr-2 text-muted"></i>3-20 learners per class</span>
+                                                                        </p>
+                                                                      </div>
+                                                                    </div>
+
+                                                                </div>
+                                                            </article>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-3">
+                                                        <div class="alert alert-warning">
+                                                            <span class="price text-left">
+                                                                <div class="class-price">
+                                                                        <h5>P1500</h5> per class
+                                                                        <span class="badge badge-danger ml-2">50% OFF</span>
+                                                                    </div>
+                                                            </span>
+                                                        </div>
+                                                        <div class="mt-4 pt-4">
+                                                            <b>Who will attend this class?</b>
+                                                            <select name="sortby" class="select-box">
+                                                                <option selected value="sort1">Henry</option>
+                                                                <option value="sort2">Olivia</option>
+                                                                <option value="sort3">Andrea</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="py-4">
+                                                            <b>Select Schedule</b>
+                                                            <select name="sortby" class="select-box">
+                                                                <option selected value="sort1">Tuesday, October xx, 2021, 6pm</option>
+                                                                <option value="sort2">Tuesday, October xx, 2021, 8pm</option>
+                                                                <option value="sort3">Thursday, October xx, 2021, 6pm</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <div class="alert alert-success" style="min-height: 100px">
+                                            <div class="float-left">
+                                                Total Amount: <h3>P4500</h3>
+                                            </div>
+                                            <button class="btn btn-success mt-4 float-right" href="#pay" data-toggle="tab" aria-controls="payment" aria-selected="true">
+                                                    Continue to Checkout
+                                            </button>
+                                        </div>
+                                  </div>
+                                  
+                                  <div class="tab-pane fade" id="pay" role="tabpanel" aria-labelledby="payment">
+                                    <form>
+                                            <h4 class="h4">Payment Method</h4>
+                                            <div class="row" style="border-bottom: 1px solid #DDD;">
+                                                <div class="col-12 pt-2 pb-5">
+                                                    <div class="row mt-4">
+                                                        <div class="col-4">
+                                                            <div class="card" >
+                                                              <div class="card-body card-header py-4">
+                                                                <h5 class="card-title">Credit Card</h5>
+                                                                <a href="#" class="btn btn-outline-success w-100">Select Method</a>
+                                                              </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-4">
+                                                            <div class="card" >
+                                                              <div class="card-body card-header py-4">
+                                                                <h5 class="card-title">PayPal</h5>
+                                                                <a href="#" class="btn btn-outline-success w-100">Select Method</a>
+                                                              </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-4">
+                                                            <div class="card" >
+                                                              <div class="card-body card-header py-4">
+                                                                <h5 class="card-title">GCash</h5>
+                                                                <a href="#" class="btn btn-outline-success w-100">Select Method</a>
+                                                              </div>
+                                                            </div>
+                                                        </div>
+                                                        
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="empty-space h15-xs h45-md fl"></div>
+                                            <div class="col-12">
+                                                <h4 class="h4">Payment Information</h4>
+                                                <div class="empty-space h25-xs h30-md"></div>
+                                                <div class="input-wrapper">
+                                                    <div class="input-style half">
+                                                        <input id="inputFirstName2" name="name" type="text" class="input" required>
+                                                        <label for="inputFirstName2">Cardholder Name</label>
+                                                    </div>
+                                                    <div class="input-style half half-right">
+                                                        <input id="inputLastName2" name="name" type="text" class="input" required>
+                                                        <label for="inputLastName2">Card Number</label>
+                                                    </div>
+
+                                                    <div class="select-date">
+                                                        <span>Expiration date</span>
+                                                        <select name="month" class="select-box">
+                                                            <option disabled selected>Month</option>
+                                                            <option value="month1">Month1</option>
+                                                            <option value="month2">Month2</option>
+                                                            <option value="month3">Month3</option>
+                                                            <option value="month4">Month4</option>
+                                                        </select>
+                                                        <select name="year" class="select-box">
+                                                            <option disabled selected>Year</option>
+                                                            <option value="year1">Year1</option>
+                                                            <option value="year2">Year2</option>
+                                                            <option value="year3">Year3</option>
+                                                            <option value="year4">Year4</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="input-style third third-right">
+                                                        <input id="inputCvv" name="cvv" type="password" class="input" required>
+                                                        <label for="inputCvv">CVV</label>
+                                                    </div>
+                                                    <div class="input-style">
+                                                        <input id="inputAddress2" name="address" type="text" class="input" required>
+                                                        <label for="inputAddress2">Address</label>
+                                                    </div>
+                                                </div>
+                                                <div class="empty-space h15-xs h30-md"></div>
+                                                <button class="btn btn-success mt-4" href="#conf" data-toggle="tab" aria-controls="confirmation" aria-selected="true">
+                                                    Confirm Payment
+                                                </button>
+                                            </div>
+                                    </form>
+                                  </div>
+                                  
+                                  <div class="tab-pane fade" id="conf" role="tabpanel" aria-labelledby="confirmation">
+                                    <h1>Confirmation!</h1>
+                                  </div>
+                                </div>
+                            </div>
+
+
+                        </div>
                     </div>
-                </div>
-                </div>
                 </div>
             </div>
         </div>    <!-- shop -->
