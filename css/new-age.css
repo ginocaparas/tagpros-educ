@@ -779,6 +779,8 @@ section.cta2 .overlay {
   .btn-primary-tagpros-header-learn {background: white !important}
 
   .col-find img {width: 40vw !important;}
+  #teachers .col-find img {width: 100% !important;}
+  #teachers .col-xs-12 {margin-bottom: 0.3em;}
   .orange-divider {width: 90% !important;}
   .form-G01-div {background-image: none !important;}
   footer h5 {margin-top:2em;}
