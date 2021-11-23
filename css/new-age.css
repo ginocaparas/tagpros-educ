@@ -592,8 +592,13 @@ section.cta2 .overlay {
   #mainNav .navbar-nav > li > a {font-size: 1em !important;}
 }
 
-
+@media (max-width: 1200px){
+  #parallax {
+    display:  none !important;
+   }
+}
 @media (min-width: 1200px) {
+
   .masthead {
     padding-top: 150px;
   }
@@ -1056,13 +1061,16 @@ form label {
   padding-right:2.8em;
 }
 #parallax {
-  position: relative;
+  position: absolute  ;
   width: 100%;
   background-image: url('../img/shapesbg02.png');
   background-repeat: no-repeat;
   background-position: center;
   background-position: 50% 50%;
   background-size: 80%;
+  height: 500px;
+  bottom: 0;
+  right: 0;
 }
 
 
@@ -1218,4 +1226,8 @@ form label {
 .tagheart {
    font-size:1.2em;
    color:#dc3545;
+}
+
+.teacher-list {
+  margin-top:0.4em;
 }
