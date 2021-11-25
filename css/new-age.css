@@ -790,6 +790,7 @@ section.cta2 .overlay {
   .form-G01-div {background-image: none !important;}
   footer h5 {margin-top:2em;}
   footer ul.navbar-nav {flex-direction: column !important;}
+
 }
 
 
@@ -831,7 +832,8 @@ section.cta2 .overlay {
 .tagpros-page-header {height:360px;}
 
 .tagpros-sem-sc {min-height: 240px;padding:1em;}
-.tagpros-sem-inner {height:300px;}
+.tagpros-sem-inner {height:max-content;}
+.tagpros-sem-inner img {width:100%;}
 .tagpros-inner-container {border:1px solid #CCC;height:100%;}
 .tagpros-sem-desc {background:#FFF;height:auto;padding:0.5em;border-top: 1px solid #ccc;}
 .tagpros-sem-desc a {color:#1a93b5;}
