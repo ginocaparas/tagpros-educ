@@ -68,11 +68,11 @@
 <!-- NAVIGATION BAR NAVIGATION BAR NAVIGATION BAR NAVIGATION BAR NAVIGATION BAR  -->
 <!-- NAVIGATION BAR NAVIGATION BAR NAVIGATION BAR NAVIGATION BAR NAVIGATION BAR  -->
 <!-- NAVIGATION BAR NAVIGATION BAR NAVIGATION BAR NAVIGATION BAR NAVIGATION BAR  -->
-  <div id="announce">
+<!--  <div id="announce">
    <b style="font-size:1.4em;">BACK-TO-SCHOOL PROMOTION!</b> <u>Up to 50% OFF</u> on all video materials from December 1 to 31, 2021! <a href="./mascot.html">Click here</a> for more info.
-  </div>
+  </div>-->
 
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-shrink" id="mainNav">
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-shrink" id="mainNav" style="margin-top:0 !important;">
 
       <div class="container-fluid">
       
@@ -383,67 +383,27 @@
 
 <!-- HERO BANNER SECTION -->
 
-  <header class="masthead">
-    <div class="container-fluid h-100">
-      <div class="row">
-        <div class="col-xs-12 col-xl-10 offset-xl-1">
-          <h1>WE ARE PASSIONATE<br>ABOUT LEARNING.</h1>
-          <div class="row">
-            <div class="col-xl-7 landing-left">
-              <div class="hero-action p-4 my-4 col-xl-11">
-                <h4><i class="far fa-lightbulb"></i> What are you passionate about?</h4>
-                  <form class="form-horizontal form-material" id="loginform" action="search.html">
-                    <div class="form-group">
-                      <div class="col-xs-12 form-G01-div">
-                        <input class="form-control form-G01 mt-2 pl-3" type="text" placeholder="Search all videos" name="tag-search" id="loginform-input">
-                      </div>
-                      <div class="mt-2 form-recom">
-                        We recommend: <span><a href="#">Science</a></span>, <span><a href="#">Mathematics</a></span>, <span><a href="#">Visual Arts</a></span>, <span><a href="#">Cooking</a></span>, <span><a href="#">Technology</a></span>, <span><a href="#">Animation</a></span>, <span><a href="#">Design</a></span>, <span><a href="#">English Language</a></span>
-                      </div>
-                    </div>
-                  </form>
-              </div>
-              
-              <div class="row mt-5">
-                <div class="col-md-5 text-right">
-                  
-                  
-                  <div class="w-100 pt-3">
-                    <img src="./img/become01c.png" style="width: 100%;">
-                  </div>
-                  <div class="become-a-teacher mt-2">
-                    <a href="#">
-                      <h4 class="float-left h-100 m-0 text-left ">Become a Teacher</h4>  <i class="fa fa-play" aria-hidden="true" style="line-height: 33px;"></i>
-                    </a>
-                  </div>
-                </div>
-                
-                <div class="col-md-5 offset-md-1 text-right">
-                  
-                  <div class="w-100 pt-3">
-                    <img src="./img/become02c.png" style="width: 100%;">
-                  </div>
-                  <div class="become-a-learner mt-2">
-                    <a href="#">
-                      <h4 class="float-left h-100 m-0 text-left ">Become a Learner</h4>  <i class="fa fa-play" aria-hidden="true" style="line-height: 33px;"></i>
-                    </a>
-                  </div>
-                </div>
-                
-              </div>
-            
-            </div>
+  <header class="masthead" >
+    <div class="container-fluid h-100" ><div class="row" ><div class="col-xs-12 col-xl-10 offset-xl-1" ><h1 >Teach your passion online<br>
+<div style="font-size: 2rem;width: 100%;color: #666;">Be a part of the <b style="color: #f57e20;">US Teacher Exchange Program</b></div>
+<div  style="background-color: gold !important;width: 45%;border-radius: 1em;text-align: center;margin-bottom: 0;" class="become-a-teacher mt-5"><a href="https://staging.tagpros.us/learn-more/school-leader" style="width: auto;"><h2  style="font-size: 2.2rem;" class="">Sign Up Now</h2>  </a>
 
-            <div class="col-xl-5 w-100 px-0" id="parallax">
-              <img class="w-100" src="./img/landing01c.png">
-            </div>
 
-          </div>
-        </div>
-        
-      </div>
-    </div>
-  </header>
+</div>
+<div style="margin-top: 0em;">
+ <a href="https://staging.tagpros.us/learn-more/school-leader" style="font-size: 1.5rem;text-decoration: underline;color: #007bff;">
+<small>
+  Learn more about the US Teacher Exchange Program
+  </small>
+  </a></div></h1><div class="row" ><div class="col-xl-7 landing-left"  style="margin-top:18em;"><div class="row mt-5"><div class="col-md-5 text-right" ><div class="w-100 pt-3" ><img alt="img" src="./img/become01c.png" style="width: 100%;" ></div><div class="become-a-teacher mt-2" ><a href="/register" ><h3 class="float-left h-100 m-0" >Become a Teacher</h3>  <i class="fa fa-play" aria-hidden="true" style="line-height: 33px;" ></i></a></div></div><div class="col-md-5 offset-md-1 text-right" ><div class="w-100 pt-3" ><img alt="img" src="./img/become02c.png" style="width: 100%;" ></div><div class="become-a-learner mt-2" ><a href="/register" ><h3 class="float-left h-100 m-0" >Become a Learner</h3>  <i class="fa fa-play" aria-hidden="true" style="line-height: 33px;" ></i></a></div></div></div></div><div class="col-xl-5 w-100 px-0"  style="background-position: 40.46% 6.395%;"><img alt="img" class="w-100"  src="https://tagpros.com.ph/assets/img/hero01.png"></div></div>
+
+<div class="mt-3">
+  ^ Gino's dev notes: pls fix CSS accordingly sa prod version, especially for mobile version. I just did the designs quickly during our marketing meeting. Removed parallax element in right div, pls edit /js/new-age.js accordingly. Final landing image may change depending on marketing team's decision; for now, pls use the one seen here (image URL is linked to tagpros.com.ph site).</div>
+
+
+</div></div></div>
+
+</header>
 
 
 <!-- ========================================= FIND ========================================= -->
@@ -458,89 +418,16 @@
           
           <div class="row">
                 <div class="col-xl-9">
-                    <h1>Find what you are passionate about.</h1>
+                    <h1>Our US School Partners</h1>
                 </div>
-                <div class="col-xl-3" style="color:#111 !important">
-                  <form class="form-horizontal form-material" id="loginform" action="search.html">
-                    <div class="form-group" style="font-size:1.6em">
-                      <div class="float-left" style="position: absolute;top: 4px;">
-                        <i class="fa fa-search" aria-hidden="true"></i>
-                      </div>
-                      <div class="form-g01-div" style="padding-left: 40px;">
-                        <input class="form-control2" type="text" required="" placeholder="Search Classes" style="font-size: 1em;color:#eee;">
-                      </div>
-                    </div>
-                  </form>
-                </div>
-              </div>
+          </div>
         </div>
       </div><!--end row -->
       <div class="row rowfind pt-4 pb-5">
-        <div class="col-xl-2 col-xs-12 col-md-3 col-sm-4 col-find offset-xl-1">
-            <div class="tagpros-sem-time p-1">
-              128 Videos
-            </div>
-            <img src="./img/find01.png">
-            <a href="#"><h3 class="pt-4 pb-0">Visual Arts</h3></a>
-          
-        </div>
-        
-        <div class="col-xl-2 col-xs-12 col-md-3 col-sm-4 col-find">
-            <div class="tagpros-sem-time p-1">
-              93 Videos
-            </div>
-            <img src="./img/find02.png">
-            <a href="#"><h3 class="pt-4 pb-0">Mathematics</h3></a>
-          
-        </div>
-        <div class="col-xl-2 col-xs-12 col-md-3 col-sm-4 col-find">
-            <div class="tagpros-sem-time p-1">
-              75 Videos
-            </div>
-            <img src="./img/find03.png">
-            <a href="#"><h3 class="pt-4 pb-0">Science</h3></a>
-          
-        </div>
-        <div class="col-xl-2 col-xs-12 col-md-3 col-sm-4 col-find">
-            <div class="tagpros-sem-time p-1">
-              333 Videos
-            </div>
-            <img src="./img/find04.png">
-            <a href="#"><h3 class="pt-4 pb-0">Cooking</h3></a>
-          
-        </div>
-        <div class="col-xl-2 col-xs-12 col-md-3 col-sm-4 col-find">
-            <div class="tagpros-sem-time p-1">
-              48 Videos
-            </div>
-            <img src="./img/find05.png">
-            <a href="#"><h3 class="pt-4 pb-0">Technology</h3></a>
-          
-        </div>
-        <div class="col-xl-2 col-xs-12 col-md-3 col-sm-4 col-find">
-            <div class="tagpros-sem-time p-1">
-              186 Videos
-            </div>
-            <img src="./img/find06.png">
-            <a href="#"><h3 class="pt-4 pb-0">Animation</h3></a>
-          
-        </div>
-        <div class="col-xl-2 col-xs-12 col-md-3 col-sm-4 col-find">
-            <div class="tagpros-sem-time p-1">
-              27 Videos
-            </div>
-            <img src="./img/find07.png">
-            <a href="#"><h3 class="pt-4 pb-0">Creative Design</h3></a>
-          
-        </div>
-        <div class="col-xl-2 col-xs-12 col-md-3 col-sm-4 col-find">
-            <h3 style="color:#000">Search for more subjects</h3>
-            <h5 class="pt-3"><a href="#" data-toggle="modal" data-target="#comingsoon">Click Here <i class="fa fa-arrow-right" aria-hidden="true"></i></a></h5>
-          
-        </div>
-        <div class="col-xl-1 col-find">
-          
-        </div>
+        <div style="/*! border: 1px solid #333; */height: auto;margin: 0 auto;width: 80%;padding-bottom: 1em;">
+          <img src="https://i.imgur.com/lmthtKK.jpg" style="width: 100%;margin-bottom: 3em;">
+          <br>^ dev notes: placeholder lang to, pls insert school logos individually in separate col- divs
+          </div>
       </div><!--end 2nd row-->
 
     </div>
@@ -593,10 +480,10 @@
           <div class="col-xl-4">
              <div class="row">
               <div class="col-md-4 col-xl-12 col-sm-6 pb-4">
-                <img src="./img/sec03.png" class="w-100 tagpros-corner">
+                <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cHJpbmNpcGFsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&h=400&q=60" class="w-100 tagpros-corner">
               </div>
               <div class="col-md-8 col-xl-12 col-sm-6">
-                <h3>Parents</h3>
+                <h3>US School Leaders</h3>
                 <p style="line-height: 44px;font-size: 1.2em;" class="pr-3">Observe our teachers' online classes just like any regular classroom visits. Join US school leaders who can access our community of thousands of educators for talent pool development and future prospects. </p>
                 
               </div>
@@ -979,7 +866,7 @@
         </ul>
         </div>
         <div class="col-xl-5 text-left text-md-right nav-link">
-          <p>&copy; Tagpros Education 2021. All Rights Reserved.</p>
+          <p>&copy; Tagpros Education 2022. All Rights Reserved.</p>
         </div>
       </div>
     </div>
